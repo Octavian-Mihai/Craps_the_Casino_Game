@@ -1,2 +1,2 @@
-# craps_final_version
+# Craps, the Casino Game
 
