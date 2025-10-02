@@ -22,7 +22,7 @@ At launch, you’ll be prompted to:
 - Name must not be empty
 - Amount must be greater than 0
 
-
+![](images/craps_image1.png)
 
 Once submitted, you’ll enter the **main game screen**.
 
@@ -34,7 +34,7 @@ Once submitted, you’ll enter the **main game screen**.
 - The **total bet** is removed from your current money when placed
 - The **"Cancel"** button restores your current bet to your total money and hides the **"Roll"** button if the bet becomes 0
 
-
+![](images/craps_image2.png)
 
 
 
@@ -48,7 +48,7 @@ When a bet > 0, you can click **“ROLL”** to start the round.
 - **Lose instantly** if the sum is **2, 3, or 12**
 - Otherwise, the value becomes the **point** (displayed in the token), and you move to **subsequent rolls**
 
-
+![](images/craps_image3.png)
 
 
 
@@ -60,8 +60,9 @@ When a bet > 0, you can click **“ROLL”** to start the round.
 
 You must continue rolling until one of those two outcomes occurs.
 
+![](images/craps_image4.png)
 
-
+![](images/craps_image5.png)
 
 
 ## 🧾 Results and Feedback
@@ -71,7 +72,7 @@ After each round:
 - Your **current money** is updated
 - If you run out of money, the game ends with a light-hearted reminder about gambling 😅
 
-
+![](images/craps_image6.png)
 
 
 
