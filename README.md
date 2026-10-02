@@ -1,12 +1,23 @@
 # Craps, the Casino Game
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for an architecture diagram.
-
 # 🎲 Craps Casino Game 🎰
 
 Welcome to the **Craps Casino Game**, a simplified single-player version of the classic casino dice game **Craps**, recreated in Unity! Test your luck, place your bets, and try to grow your virtual bankroll! 💵
 
 
+
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Player([Player]) -->|bets, roll| UI[Unity UI]
+    UI --> Script["Assets/script/scriptTP1.cs<br/>game state · bankroll · craps rules"]
+    Script -->|dice result, win/lose, point| UI
+    Script --> Dice[Dice / scene objects]
+```
+
+More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
 ## 🧠 Game Objective
 
