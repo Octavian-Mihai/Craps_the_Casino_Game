@@ -1,5 +1,7 @@
 # Craps, the Casino Game
 
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for an architecture diagram.
+
 # 🎲 Craps Casino Game 🎰
 
 Welcome to the **Craps Casino Game**, a simplified single-player version of the classic casino dice game **Craps**, recreated in Unity! Test your luck, place your bets, and try to grow your virtual bankroll! 💵
